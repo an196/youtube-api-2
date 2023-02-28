@@ -6,6 +6,7 @@ import { ConfigService } from './config/config.service';
 import { LoggerModule } from './logger/logger.module';
 import { VideoModule } from './entities/video/video.module';
 import { ConfigModule } from './config/config.module';
+import { ShortModule } from './entities/short/short.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { ConfigModule } from './config/config.module';
         configService.getMongoConfig(),
     }),
     VideoModule,
+    ShortModule,
     LoggerModule.forRoot(),
   ],
   controllers: [AppController],

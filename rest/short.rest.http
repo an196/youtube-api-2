@@ -1,0 +1,205 @@
+### get all shorts
+
+GET   http://localhost:3000/short
+content-type: application/json 
+
+### get a short by id
+
+GET   http://localhost:3000/short/short1
+content-type: application/json 
+
+
+### create a short data 1
+
+POST    http://localhost:3000/short
+content-type: application/json 
+
+{
+  "_idShort": "short1",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshorts10.jpg?alt=media&token=85569170-e146-485f-9358-f2013b8de420",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fthobaymau1.mp4?alt=media&token=90ab98af-8454-4f74-ac70-9763e2a27841"
+  }
+}
+
+
+### create a short data 2
+
+POST    http://localhost:3000/short
+content-type: application/json 
+
+{
+  "_idShort": "short2",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshorts1.jpg?alt=media&token=0402592a-5041-47ce-ad1e-263c3d72b772",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2FTerrarium%20Build%20-%20Start%20to%20finish%20%23shorts.mp4?alt=media&token=ae44461a-abcf-4f5c-8eaf-280833a7a132"
+  }
+}
+
+
+### create a short data 3
+
+POST    http://localhost:3000/short
+content-type: application/json 
+
+{
+  "_idShort": "short3",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshorts2.jpg?alt=media&token=a79f5f84-3d05-4ef0-b444-9134dfae0888",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2FSetup%2Bb%E1%BB%83%2Bterrarium%2B-%2Bph%E1%BA%A7n%2B4%2B%2C%2Bc%C3%A1c%2Bb%E1%BA%A1n%2Bxem%2Bvui%2Bv%E1%BA%BB%2B%23shorts.mp4?alt=media&token=b20edc5d-51b5-4669-946e-89f0ec545326"
+  }
+}
+
+### create a short data 4
+
+POST    http://localhost:3000/short
+content-type: application/json 
+
+{
+  "_idShort": "short4",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshorts4.jpg?alt=media&token=3b2ef339-18f1-4692-986b-0a1b27c5c1f5",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2FMaking%2Ba%2BAvatar%2BTerrarium%2B%23shorts.mp4?alt=media&token=356c7677-da86-4dad-a937-b8e01580fe32"
+  }
+}
+
+### create a short data 5
+
+POST    http://localhost:3000/short
+content-type: application/json 
+
+{
+  "_idShort": "short5",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshorts4.jpg?alt=media&token=3b2ef339-18f1-4692-986b-0a1b27c5c1f5",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2FMaking%20a%20terrarium%20is%20easy%20%23shorts.mp4?alt=media&token=bd28dc21-0106-47fd-8918-e5f009ef12a9"
+  }
+}
+
+### create a short data 6
+
+POST    http://localhost:3000/short
+content-type: application/json
+
+{
+  "_idShort": "short6",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshort5.jpg?alt=media&token=ceb19b20-02bd-48d2-9f27-8b6780b028c0",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2FMaking%20a%20Foam%20Cave%20%23shorts.mp4?alt=media&token=13310e39-204b-4f03-a7eb-c662e8da7599"
+  }
+}
+
+
+### create a short data 7
+
+POST    http://localhost:3000/short
+content-type: application/json
+
+{
+  "_idShort": "short7",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshort6.jpg?alt=media&token=f7a293cf-68ed-4ebf-882a-aa9088bd048b",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2FMake%2Ba%2Bterrarium%2Bwith%2Baquatic%2Bplants%2B%23shorts.mp4?alt=media&token=65c30a37-a42d-4fc3-9dcd-a82b5ef4f086"
+  }
+}
+
+### create a short data 8
+
+POST    http://localhost:3000/short
+content-type: application/json
+
+{
+  "_idShort": "short8",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoShort": {
+    "title": "Chị em sắp thành idol #thobaymau #shorts",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2Fshorts7.jpg?alt=media&token=bde6b6f3-6f3f-4bb0-b440-152d0b5f2afa",
+    "briefDes": "Chị em sắp thành idol #thobaymau #shorts",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "duration": "4M29",
+    "video": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/short%2FC%C3%A1ch%2Bt%E1%BB%B1%2Bl%C3%A0m%2Bm%E1%BB%99t%2Bb%C3%ACnh%2Bterrarium%2B%C4%91%C6%A1n%2Bgi%E1%BA%A3n%2B%23shorts.mp4?alt=media&token=3cceb2f6-2e42-4b9e-b3da-927469bf67de"
+  }
+}

@@ -14,7 +14,7 @@ export class Video {
   infoVideo: InfoVideo;
 
   @Prop()
-  InfoOwner: InfoOwner;
+  infoOwner: InfoOwner;
 }
 
 export const VideoSchema = SchemaFactory.createForClass(Video);

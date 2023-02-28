@@ -1,11 +1,7 @@
 import {
-  Body,
   Controller,
   Get,
   HttpStatus,
-  Param,
-  Patch,
-  Post,
   Res,
 } from '@nestjs/common';
 import { Response } from 'express';
