@@ -8,11 +8,17 @@ async function bootstrap() {
   // enable shutdown hooks explicitly.
   app.enableShutdownHooks();
 
-  app.useGlobalPipes(new ValidationPipe( ));
-  app.enableCors();
- 
+  app.useGlobalPipes(new ValidationPipe());
+  app.enableCors({
+    allowedHeaders: '*',
+    origin: [
+      'http://localhost:4200',
+      'https://youtube-eta-ten.vercel.app',
+      'https://youtube-an196.vercel.app'
+    ],
+    credentials: true,
+  });
 
   await app.listen(3000);
-
 }
 bootstrap();

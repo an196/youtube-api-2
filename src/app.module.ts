@@ -12,8 +12,9 @@ import { ConfigModule } from './config/config.module';
     ConfigModule,
     // MongoDB Connection
     MongooseModule.forRootAsync({
-        inject: [ConfigService],
-        useFactory: async (configService: ConfigService) => configService.getMongoConfig(),
+      inject: [ConfigService],
+      useFactory: async (configService: ConfigService) =>
+        configService.getMongoConfig(),
     }),
     VideoModule,
     LoggerModule.forRoot(),
@@ -21,4 +22,4 @@ import { ConfigModule } from './config/config.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule { }
+export class AppModule {}
