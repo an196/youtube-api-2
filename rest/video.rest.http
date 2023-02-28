@@ -1,0 +1,4 @@
+### get all video
+
+GET   http://localhost:3000/video
+content-type: application/json 
